@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="shortcut icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+        type="image/x-icon" sizes="16x16">
+    <title> Instagram </title>
+</head>
+
+<body>
+    <main>
+        <div id="insta__wrapper">
+            <div id="phone__wrapper">
+                <img src="./public/assets/img/phone.gif">
+            </div>
+
+            <div id="modal__wrapper">
+                <div>
+                    <img src="https://www.instagram.com/static/images/web/logged_out_wordmark.png/7a252de00b20.png"
+                        alt="Instragram Logo">
+                </div>
+                <form>
+                    <input oninput="handleSubmitBtn()" oninput="handleSubmitBtn()" id="input__email" type="email"
+                        placeholder="Telefone, nome de usuário ou email">
+                    <input oninput="handleSubmitBtn()" id="input__pass" type="password" placeholder="Senha">
+                    <button id="btn__submit" type="submit" disabled> Entrar </button>
+                </form>
+                <div> Ou </div>
+                <div id="facebook__container">
+                    <div>
+                        <div style="display: flex; justify-content: center; align-items: center; gap: 1rem;">
+                            <img width="20px"
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAABuklEQVRoge2ZsU7CQBzGv38xLsDqQAIJzwAmLpoSmbCG1CfwFXDRxFElTvgmoNEymQAmJkYdfAWNRlcJLBJ6DixEuEKvvWtN7rd+vf99X+6u/acHaDQaTZTQogdKtlMdAzUiFMGQVGEKhCEYPcFFo3dVufZ+1APTbp8zsMNw3fmF1Xst65incgOUbKfqApdyTPmDgN1ua+dmnmbwBo2BmjxL/mDAAU/jBiCwghw7QhR5AjcAQCkZTgRJ8wSPAP+DFZWTJRKEynYW5c0M8rkU0qlV0NRrxNxr+66pLIBhEM6OCtgorIVbN9RqHljlbOjmAYUBylsZKXWVbaF8bvZFcnLxgruHL4xGrnBdZQGSydmpOvefcF0WqK6yLWTQbNcS1DygvwPedJuVpfXv/g+q+7e+54jNCry+D4TGxSbA28dQaFyMAoitgNQzMN3bzDsPIr3PX2KzAqLoAFGjA0SNDhA1OkDU6ABR4xGAiXVXcujzBI9mzngGmBmWg4CN2zNP4K+Ai0aQGcPEIMb1wg0wuRlhdTmWlocRTjtNy+HpC6+YTNuxJv/n2bq6P9ZsANCjQazhZV6j0Wii5xenO2V+QqiXMQAAAABJRU5ErkJggg==" />
+                            <div> Entrar com o Facebook </div>
+                        </div>
+
+                        <div>
+                            <div style="font-size: 10px; font-weight: 100; margin-top: 1rem;"> Esqueceu a senha? </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div style="color: #000; font-weight: 100; font-size: 0.8rem;">
+                            Não tem uma conta? <span style="color: rgb(119, 124, 194); font-weight: 700;"> Cadastre-se
+                            </span>
+                        </div>
+                        <div style="color: #000; font-weight: 100; font-size: 0.8rem; margin-top: 2rem;">
+                            Obtenha o aplicativo
+                        </div>
+                        <div id="img__container">
+                            <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_portuguese-brazilian-pt_br.png/68006a2bb372.png"
+                                alt="app facebook apple">
+                            <img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_portuguese_brazilian-pt_BR.png/2f2a0c05b2f3.png"
+                                alt="app facebook android">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./public/js/index.js"> </script>
+</body>
+
+</html>
