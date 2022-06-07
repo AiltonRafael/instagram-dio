@@ -1,6 +1,6 @@
 # Project 1 - Clone Instagram
 
-## Objectiv
+## Purpose
 
 Project from Bootcamp "Dio" (Bradesco) in order to apprenticeship.
 
