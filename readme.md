@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Project from Bootcamp "Dio" (Bradesco) in order to apprenticeship.
+Project from Bootcamp "Dio" (Santander) in order to apprenticeship.
 
 ## Stacks
 
